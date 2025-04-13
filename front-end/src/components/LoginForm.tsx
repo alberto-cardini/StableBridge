@@ -56,13 +56,13 @@ export function LoginForm() {
   };
 
   const fillDemoCompanyCredentials = () => {
-    setEmail("mark@mock.com");
+    setEmail("novatech@mock.com");
     setPassword("password");
     toast.info("Demo user credentials filled");
   };
 
   const fillDemoBuyerCredentials = () => {
-    setEmail("alberto@mock.com");
+    setEmail("stellardevices@mock.com");
     setPassword("password");
     toast.info("Demo user credentials filled");
   };
@@ -102,11 +102,11 @@ export function LoginForm() {
             <div className="grid grid-cols-2 gap-2">
               <Button type="button" size="sm" variant="outline" onClick={fillDemoCompanyCredentials} className="flex items-center gap-2 justify-center">
                 <Building size={16} />
-                <span>Mark</span>
+                <span>Nova Tech Ltd.</span>
               </Button>
               <Button type="button" size="sm" variant="outline" onClick={fillDemoBuyerCredentials} className="flex items-center gap-2 justify-center">
                 <User size={16} />
-                <span>Alberto</span>
+                <span>Stellar Devices Ltd.</span>
               </Button>
             </div>
           </div>
